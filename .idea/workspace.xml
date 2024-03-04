@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 8. finalizer와 cleaner 사용을 피하라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/tryWithResources/AdvancedExamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/tryWithResources/ExamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/tryWithResources/FileOutputStreamForAutoCloseable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/tryWithResources/TestFileOutputStream.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM9. try-finally 보다는 try-with-resources를 사용하라.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/hashCode/DiffHashCodeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/hashCode/LazyLoadHashCodeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/hashCode/SameHashCodeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/hashCode/TestHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/hashCode/SameHashCodeNumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/tryWithResources/AdvancedExamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/tryWithResources/AdvancedExamTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,26 +61,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.study.hashCode" />
       <recent name="org.study.autoCloseable" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.study.supplier" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RestaurantTest">
-    <configuration name="Stacktest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.study.dereference.Stacktest" />
-      <module name="effectiveJava.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.study.dereference.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.SameHashCodeNumberTest.diffHashCodeNumber">
     <configuration name="WeakReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.study.dereference.WeakReferenceTest" />
       <module name="effectiveJava.main" />
@@ -115,11 +105,82 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="SameHashCodeNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.study.hashCode.SameHashCodeNumberTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SameHashCodeNumberTest.diffHashCodeNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.study.hashCode.SameHashCodeNumberTest.diffHashCodeNumber&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SameHashCodeNumberTest.sameHashCodeNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.study.hashCode.SameHashCodeNumberTest.sameHashCodeNumber&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SameHashCodeNumberTest.diffHashCodeNumber" />
+        <item itemvalue="Gradle.SameHashCodeNumberTest.sameHashCodeNumber" />
+        <item itemvalue="Gradle.SameHashCodeNumberTest" />
         <item itemvalue="Gradle.RestaurantTest" />
         <item itemvalue="애플리케이션.WeakReferenceTest" />
-        <item itemvalue="애플리케이션.Stacktest" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +194,8 @@
       <updated>1708994178202</updated>
       <workItem from="1708994181267" duration="4575000" />
       <workItem from="1709096785918" duration="2234000" />
-      <workItem from="1709185650882" duration="1579000" />
+      <workItem from="1709185650882" duration="2344000" />
+      <workItem from="1709523871172" duration="1394000" />
     </task>
     <task id="LOCAL-00001" summary="effective java first -commit">
       <created>1708994413333</created>
@@ -156,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709099118827</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ITEM9. try-finally 보다는 try-with-resources를 사용하라.">
+      <created>1709191078098</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709191078098</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +246,7 @@
     <MESSAGE value="effective java first -commit" />
     <MESSAGE value="ITEM7. 다 쓴 객체를 참조 해제" />
     <MESSAGE value="ITEM 8. finalizer와 cleaner 사용을 피하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 8. finalizer와 cleaner 사용을 피하라" />
+    <MESSAGE value="ITEM9. try-finally 보다는 try-with-resources를 사용하라." />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM9. try-finally 보다는 try-with-resources를 사용하라." />
   </component>
 </project>
