@@ -16,6 +16,4 @@ import java.util.Objects;
 public class TestHash {
     private int number;
     private String name;
-
-
 }
