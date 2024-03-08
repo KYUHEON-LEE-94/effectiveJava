@@ -4,35 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 13. clone 재정의는 주의하여 진행하라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chatper2/comparable/ComparableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chatper2/comparable/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chatper2/comparable/WordList.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM14. Comparable을 구현할지 고려하라">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter3/ITEM15/Id.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter3/ITEM15/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter3/ITEM15/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/autoCloseable/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter1/autoCloseable/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/cloneable/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chatper2/cloneable/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/dereference/LinkedHashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter1/dereference/LinkedHashMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/dereference/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter1/dereference/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/dereference/Stacktest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter1/dereference/Stacktest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/dereference/WeakReferenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter1/dereference/WeakReferenceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/equals/EqualsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chatper2/equals/EqualsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/equals/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chatper2/equals/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/equals/StudyMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chatper2/equals/StudyMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/equals/StudyMember2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chatper2/equals/StudyMember2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/hashCode/DiffHashCodeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter1/hashCode/DiffHashCodeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/hashCode/LazyLoadHashCodeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter1/hashCode/LazyLoadHashCodeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/hashCode/SameHashCodeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter1/hashCode/SameHashCodeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/hashCode/TestHash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter1/hashCode/TestHash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/supplier/ExpensiveObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter1/supplier/ExpensiveObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/supplier/LazyInitializationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter1/supplier/LazyInitializationExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/supplier/SupplierMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter1/supplier/SupplierMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/toString/PhoneNumberByDefault.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chatper2/toString/PhoneNumberByDefault.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/tryWithResources/AdvancedExamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter1/tryWithResources/AdvancedExamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/tryWithResources/ExamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter1/tryWithResources/ExamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/tryWithResources/FileOutputStreamForAutoCloseable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter1/tryWithResources/FileOutputStreamForAutoCloseable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/tryWithResources/TestFileOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter1/tryWithResources/TestFileOutputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/study/autoCloseable/RestaurantTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/study/autoCloseable/RestaurantTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/study/hashCode/SameHashCodeNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/study/hashCode/SameHashCodeNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/chatper2/cloneable/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter2/cloneable/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/chatper2/comparable/ComparableExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter2/comparable/ComparableExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/chatper2/comparable/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter2/comparable/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/chatper2/comparable/WordList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter2/comparable/WordList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/chatper2/equals/EqualsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter2/equals/EqualsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/chatper2/equals/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter2/equals/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/chatper2/equals/StudyMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter2/equals/StudyMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/chatper2/equals/StudyMember2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter2/equals/StudyMember2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/chatper2/toString/PhoneNumberByDefault.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter2/toString/PhoneNumberByDefault.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/study/toString/ToStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/study/toString/ToStringTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +37,17 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="effectiveJava" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -105,11 +101,11 @@
   </component>
   <component name="RunManager" selected="애플리케이션.ComparableExample">
     <configuration name="ComparableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.study.chatper2.comparable.ComparableExample" />
+      <option name="MAIN_CLASS_NAME" value="org.study.chapter2.comparable.ComparableExample" />
       <module name="effectiveJava.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.study.chatper2.comparable.*" />
+          <option name="PATTERN" value="org.study.chapter2.comparable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +127,11 @@
       </method>
     </configuration>
     <configuration name="WordList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.study.chatper2.comparable.WordList" />
+      <option name="MAIN_CLASS_NAME" value="org.study.chapter2.comparable.WordList" />
       <module name="effectiveJava.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.study.chatper2.comparable.*" />
+          <option name="PATTERN" value="org.study.chapter2.comparable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,7 +209,8 @@
       <workItem from="1709346820290" duration="1478000" />
       <workItem from="1709599252254" duration="1967000" />
       <workItem from="1709710898893" duration="1050000" />
-      <workItem from="1709791813851" duration="2065000" />
+      <workItem from="1709791813851" duration="2105000" />
+      <workItem from="1709883829975" duration="1049000" />
     </task>
     <task id="LOCAL-00001" summary="effective java first -commit">
       <created>1708994413333</created>
@@ -250,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709712456653</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ITEM14. Comparable을 구현할지 고려하라">
+      <created>1709793908241</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709793908241</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +277,7 @@
     <MESSAGE value="ITEM 8. finalizer와 cleaner 사용을 피하라" />
     <MESSAGE value="ITEM 12 - toString을 항상 재정의하라" />
     <MESSAGE value="ITEM 13. clone 재정의는 주의하여 진행하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 13. clone 재정의는 주의하여 진행하라" />
+    <MESSAGE value="ITEM14. Comparable을 구현할지 고려하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM14. Comparable을 구현할지 고려하라" />
   </component>
 </project>

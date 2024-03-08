@@ -1,4 +1,4 @@
-package org.study.chatper2.toString;
+package org.study.chapter2.toString;
 
 /**
  * packageName    : org.study.toString

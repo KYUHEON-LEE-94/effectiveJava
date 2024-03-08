@@ -1,4 +1,4 @@
-package org.study.chatper2.equals;
+package org.study.chapter2.equals;
 
 /**
  * packageName    : org.study.equals

@@ -1,7 +1,7 @@
 package org.study.toString;
 
 import org.junit.jupiter.api.*;
-import org.study.chatper2.toString.PhoneNumberByDefault;
+import org.study.chapter2.toString.PhoneNumberByDefault;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;

@@ -1,4 +1,4 @@
-package org.study.chatper2.cloneable;
+package org.study.chapter2.cloneable;
 
 import java.util.Arrays;
 import java.util.EmptyStackException;

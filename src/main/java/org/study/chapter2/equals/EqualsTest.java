@@ -1,4 +1,4 @@
-package org.study.chatper2.equals;
+package org.study.chapter2.equals;
 
 import java.util.ArrayList;
 import java.util.List;

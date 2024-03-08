@@ -1,4 +1,4 @@
-package org.study.chatper2.comparable;
+package org.study.chapter2.comparable;
 
 /**
  * packageName    : org.study.chatper2.comparable
