@@ -2,8 +2,8 @@ package org.study.hashCode;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.study.chapter1.hashCode.DiffHashCodeNumber;
-import org.study.chapter1.hashCode.SameHashCodeNumber;
+import org.study.chapter2.hashCode.DiffHashCodeNumber;
+import org.study.chapter2.hashCode.SameHashCodeNumber;
 
 import java.util.Map;
 import java.util.stream.Collectors;

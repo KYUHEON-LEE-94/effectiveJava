@@ -1,7 +1,7 @@
 package org.study.autoCloseable;
 
 import org.junit.jupiter.api.Test;
-import org.study.chapter1.autoCloseable.Restaurant;
+import org.study.chapter2.autoCloseable.Restaurant;
 
 /**
  * packageName    : org.study.autoCloseable
