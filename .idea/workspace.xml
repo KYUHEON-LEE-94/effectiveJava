@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 18. 상속보다는 컴포지션을 사용하라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM19/Instacnce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM19/Sub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM19/Super.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter4/ITEM19/SubTest.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 19. 상속을 고려해 설계하고 문서화하라. 그러지 않았다면 상속을 금지하라.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM20/AbstractPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM20/GalaxyPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM20/IPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM20/IPhone2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM20/InnerAbstractPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM20/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM20/PhoneManufacturer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter4/ITEM20/PhoneTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +48,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -82,16 +87,18 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.study.chapter4.ITEM20" />
       <recent name="org.study.chapter4.ITEM19" />
       <recent name="org.study.chapter4.ITEM18" />
       <recent name="org.study.autoCloseable" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.study.chapter4.ITEM20" />
       <recent name="org.study.equals" />
       <recent name="org.study.supplier" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SubTest.cloneTest">
+  <component name="RunManager" selected="Gradle.PhoneTest.phoneTest">
     <configuration name="ComparableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.study.chapter3.comparable.ComparableExample" />
       <module name="effectiveJava.main" />
@@ -131,6 +138,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PhoneTest.phoneTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.study.chapter4.ITEM20.PhoneTest.phoneTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="SubTest.cloneTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -154,36 +184,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ToStringTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.study.toString.ToStringTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PhoneTest.phoneTest" />
         <item itemvalue="Gradle.SubTest.cloneTest" />
         <item itemvalue="애플리케이션.Sub" />
         <item itemvalue="애플리케이션.ComparableExample" />
         <item itemvalue="애플리케이션.WordList" />
-        <item itemvalue="Gradle.ToStringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +213,8 @@
       <workItem from="1710151583135" duration="473000" />
       <workItem from="1710231053620" duration="1584000" />
       <workItem from="1710287822776" duration="1134000" />
-      <workItem from="1710373623925" duration="2148000" />
+      <workItem from="1710373623925" duration="2412000" />
+      <workItem from="1710464673328" duration="1578000" />
     </task>
     <task id="LOCAL-00001" summary="effective java first -commit">
       <created>1708994413333</created>
@@ -278,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710326949308</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ITEM 19. 상속을 고려해 설계하고 문서화하라. 그러지 않았다면 상속을 금지하라.">
+      <created>1710393811702</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710393811703</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +321,7 @@
     <MESSAGE value="ITEM16. public 클래스에서는 public 필드가 아닌 접근자 메서드를 사용하라" />
     <MESSAGE value="ITEM17. 변경 가능성을 최소화하라" />
     <MESSAGE value="ITEM 18. 상속보다는 컴포지션을 사용하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 18. 상속보다는 컴포지션을 사용하라" />
+    <MESSAGE value="ITEM 19. 상속을 고려해 설계하고 문서화하라. 그러지 않았다면 상속을 금지하라." />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 19. 상속을 고려해 설계하고 문서화하라. 그러지 않았다면 상속을 금지하라." />
   </component>
 </project>
