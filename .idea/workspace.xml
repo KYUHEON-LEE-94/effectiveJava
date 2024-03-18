@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 19. 상속을 고려해 설계하고 문서화하라. 그러지 않았다면 상속을 금지하라.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM20/AbstractPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM20/GalaxyPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM20/IPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM20/IPhone2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM20/InnerAbstractPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM20/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM20/PhoneManufacturer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter4/ITEM20/PhoneTest.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 20. 추상 클래스 보다는 인터페이스를 우선하라">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM21/RemoveIf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM21/defaultExam/BeddingCleaner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM21/defaultExam/SamsungCleaner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM21/defaultExam/SportCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM21/defaultExam/VacuumCleaner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM21/defaultExam/WaterMop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +46,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -86,6 +84,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.study.chapter4.ITEM21" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.study.chapter4.ITEM20" />
       <recent name="org.study.chapter4.ITEM19" />
@@ -93,12 +94,13 @@
       <recent name="org.study.autoCloseable" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.study.chapter4.ITEM21.defaultExam" />
       <recent name="org.study.chapter4.ITEM20" />
       <recent name="org.study.equals" />
       <recent name="org.study.supplier" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PhoneTest.phoneTest">
+  <component name="RunManager" selected="애플리케이션.RemoveIf">
     <configuration name="ComparableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.study.chapter3.comparable.ComparableExample" />
       <module name="effectiveJava.main" />
@@ -112,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.study.chapter4.ITEM19.Sub" />
+    <configuration name="RemoveIf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.study.chapter4.ITEM21.RemoveIf" />
       <module name="effectiveJava.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.study.chapter4.ITEM19.*" />
+          <option name="PATTERN" value="org.study.chapter4.ITEM21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.study.chapter3.comparable.WordList" />
+    <configuration name="Sub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.study.chapter4.ITEM19.Sub" />
       <module name="effectiveJava.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.study.chapter3.comparable.*" />
+          <option name="PATTERN" value="org.study.chapter4.ITEM19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.RemoveIf" />
         <item itemvalue="Gradle.PhoneTest.phoneTest" />
         <item itemvalue="Gradle.SubTest.cloneTest" />
         <item itemvalue="애플리케이션.Sub" />
         <item itemvalue="애플리케이션.ComparableExample" />
-        <item itemvalue="애플리케이션.WordList" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +216,8 @@
       <workItem from="1710231053620" duration="1584000" />
       <workItem from="1710287822776" duration="1134000" />
       <workItem from="1710373623925" duration="2412000" />
-      <workItem from="1710464673328" duration="1578000" />
+      <workItem from="1710464673328" duration="1809000" />
+      <workItem from="1710721559778" duration="1642000" />
     </task>
     <task id="LOCAL-00001" summary="effective java first -commit">
       <created>1708994413333</created>
@@ -293,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710393811703</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="ITEM 20. 추상 클래스 보다는 인터페이스를 우선하라">
+      <created>1710479585878</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710479585878</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +332,7 @@
     <MESSAGE value="ITEM17. 변경 가능성을 최소화하라" />
     <MESSAGE value="ITEM 18. 상속보다는 컴포지션을 사용하라" />
     <MESSAGE value="ITEM 19. 상속을 고려해 설계하고 문서화하라. 그러지 않았다면 상속을 금지하라." />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 19. 상속을 고려해 설계하고 문서화하라. 그러지 않았다면 상속을 금지하라." />
+    <MESSAGE value="ITEM 20. 추상 클래스 보다는 인터페이스를 우선하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 20. 추상 클래스 보다는 인터페이스를 우선하라" />
   </component>
 </project>
