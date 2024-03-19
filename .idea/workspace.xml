@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 20. 추상 클래스 보다는 인터페이스를 우선하라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM21/RemoveIf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM21/defaultExam/BeddingCleaner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM21/defaultExam/SamsungCleaner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM21/defaultExam/SportCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM21/defaultExam/VacuumCleaner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM21/defaultExam/WaterMop.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 21 인터페이스는 구현하는 쪽을 생각해 설계하라">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM22/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM22/ConstantImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM22/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM22/PhysicalConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM22/Walkable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +216,8 @@
       <workItem from="1710287822776" duration="1134000" />
       <workItem from="1710373623925" duration="2412000" />
       <workItem from="1710464673328" duration="1809000" />
-      <workItem from="1710721559778" duration="1642000" />
+      <workItem from="1710721559778" duration="1818000" />
+      <workItem from="1710831047256" duration="669000" />
     </task>
     <task id="LOCAL-00001" summary="effective java first -commit">
       <created>1708994413333</created>
@@ -303,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710479585878</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ITEM 21 인터페이스는 구현하는 쪽을 생각해 설계하라">
+      <created>1710738560942</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710738560942</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,6 +340,7 @@
     <MESSAGE value="ITEM 18. 상속보다는 컴포지션을 사용하라" />
     <MESSAGE value="ITEM 19. 상속을 고려해 설계하고 문서화하라. 그러지 않았다면 상속을 금지하라." />
     <MESSAGE value="ITEM 20. 추상 클래스 보다는 인터페이스를 우선하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 20. 추상 클래스 보다는 인터페이스를 우선하라" />
+    <MESSAGE value="ITEM 21 인터페이스는 구현하는 쪽을 생각해 설계하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 21 인터페이스는 구현하는 쪽을 생각해 설계하라" />
   </component>
 </project>
