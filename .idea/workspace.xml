@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="Item 22 인터페이스는 타입을 정의하는 용도로만 사용하라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM23/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM23/Figure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM23/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM23/Square.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 23. 태그 달린 클래스보다는 클래스 계층구조를 활용하라">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter4/ITEM24/RecommendService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +214,8 @@
       <workItem from="1710464673328" duration="1809000" />
       <workItem from="1710721559778" duration="1818000" />
       <workItem from="1710831047256" duration="1335000" />
-      <workItem from="1710908989710" duration="867000" />
+      <workItem from="1710908989710" duration="910000" />
+      <workItem from="1710998339065" duration="1206000" />
     </task>
     <task id="LOCAL-00001" summary="effective java first -commit">
       <created>1708994413333</created>
@@ -317,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710831776678</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ITEM 23. 태그 달린 클래스보다는 클래스 계층구조를 활용하라">
+      <created>1710909954880</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1710909954880</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,6 +354,7 @@
     <MESSAGE value="ITEM 20. 추상 클래스 보다는 인터페이스를 우선하라" />
     <MESSAGE value="ITEM 21 인터페이스는 구현하는 쪽을 생각해 설계하라" />
     <MESSAGE value="Item 22 인터페이스는 타입을 정의하는 용도로만 사용하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="Item 22 인터페이스는 타입을 정의하는 용도로만 사용하라" />
+    <MESSAGE value="ITEM 23. 태그 달린 클래스보다는 클래스 계층구조를 활용하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 23. 태그 달린 클래스보다는 클래스 계층구조를 활용하라" />
   </component>
 </project>
