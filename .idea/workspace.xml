@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM26. 로 타입(raw type)은 사용하지 말라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter5/ITEM27/WarningTest.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 27. 비검사 경고를 제거하라">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter5/ITEM28/listTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +217,8 @@
       <workItem from="1710908989710" duration="910000" />
       <workItem from="1710998339065" duration="1224000" />
       <workItem from="1711079546670" duration="2088000" />
-      <workItem from="1711323790064" duration="1986000" />
+      <workItem from="1711323790064" duration="2031000" />
+      <workItem from="1711410620548" duration="1384000" />
     </task>
     <task id="LOCAL-00001" summary="effective java first -commit">
       <created>1708994413333</created>
@@ -338,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711085749395</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="ITEM 27. 비검사 경고를 제거하라">
+      <created>1711334397025</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1711334397025</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,6 +381,7 @@
     <MESSAGE value="ITEM 23. 태그 달린 클래스보다는 클래스 계층구조를 활용하라" />
     <MESSAGE value="Item 24. 멤버 클래스는 되도록 static으로 만들라" />
     <MESSAGE value="ITEM26. 로 타입(raw type)은 사용하지 말라" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM26. 로 타입(raw type)은 사용하지 말라" />
+    <MESSAGE value="ITEM 27. 비검사 경고를 제거하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 27. 비검사 경고를 제거하라" />
   </component>
 </project>
