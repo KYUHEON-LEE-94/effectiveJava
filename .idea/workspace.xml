@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 28. 배열보다는 리스트를 사용하라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter5/ITEM29/AdvancedMyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter5/ITEM29/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter5/ITEM29/AdvancedMyStackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter5/ITEM29/MyStackTest.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 29. 이왕이면 제네릭 타입으로 만들라.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter5/ITEM30/Modified.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter5/ITEM30/Wrong.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +32,11 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="effectiveJava" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="effectiveJava" type="f1a62948:ProjectNode" />
+                <item name="실행 구성" type="7b0102dc:RunConfigurationsNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -45,8 +48,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -242,7 +245,8 @@
       <workItem from="1710998339065" duration="1224000" />
       <workItem from="1711079546670" duration="2088000" />
       <workItem from="1711323790064" duration="2031000" />
-      <workItem from="1711410620548" duration="2807000" />
+      <workItem from="1711410620548" duration="3714000" />
+      <workItem from="1711498776917" duration="1845000" />
     </task>
     <task id="LOCAL-00001" summary="effective java first -commit">
       <created>1708994413333</created>
@@ -377,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711414075828</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="ITEM 29. 이왕이면 제네릭 타입으로 만들라.">
+      <created>1711415511883</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1711415511883</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,6 +425,7 @@
     <MESSAGE value="ITEM26. 로 타입(raw type)은 사용하지 말라" />
     <MESSAGE value="ITEM 27. 비검사 경고를 제거하라" />
     <MESSAGE value="ITEM 28. 배열보다는 리스트를 사용하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 28. 배열보다는 리스트를 사용하라" />
+    <MESSAGE value="ITEM 29. 이왕이면 제네릭 타입으로 만들라." />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 29. 이왕이면 제네릭 타입으로 만들라." />
   </component>
 </project>
