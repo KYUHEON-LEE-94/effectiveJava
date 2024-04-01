@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 30. 이왕이면 제네릭 메서드로 만들어라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter5/ITEM31/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter5/ITEM31/ToMore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter5/ITEM31/StackTestITEM31.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 31. 한정적 와일드카드를 사용해 API 유연성을 높이라.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter5/ITEM32/Args.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter5/ITEM32/ArgsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +48,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -90,11 +89,11 @@
       <recent name="org.study.chapter4.ITEM21" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.study.chapter5.ITEM32" />
       <recent name="org.study.chapter5.ITEM31" />
       <recent name="org.study.chapter5.ITEM29" />
       <recent name="org.study.chapter4.ITEM20" />
       <recent name="org.study.chapter4.ITEM19" />
-      <recent name="org.study.chapter4.ITEM18" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.study.chapter4.ITEM21.defaultExam" />
@@ -248,7 +247,8 @@
       <workItem from="1711323790064" duration="2031000" />
       <workItem from="1711410620548" duration="3714000" />
       <workItem from="1711498776917" duration="2464000" />
-      <workItem from="1711605264966" duration="2334000" />
+      <workItem from="1711605264966" duration="2486000" />
+      <workItem from="1711929085774" duration="1295000" />
     </task>
     <task id="LOCAL-00001" summary="effective java first -commit">
       <created>1708994413333</created>
@@ -397,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711510811683</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="ITEM 31. 한정적 와일드카드를 사용해 API 유연성을 높이라.">
+      <created>1711614839692</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1711614839693</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,6 +443,7 @@
     <MESSAGE value="ITEM 28. 배열보다는 리스트를 사용하라" />
     <MESSAGE value="ITEM 29. 이왕이면 제네릭 타입으로 만들라." />
     <MESSAGE value="ITEM 30. 이왕이면 제네릭 메서드로 만들어라" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 30. 이왕이면 제네릭 메서드로 만들어라" />
+    <MESSAGE value="ITEM 31. 한정적 와일드카드를 사용해 API 유연성을 높이라." />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 31. 한정적 와일드카드를 사용해 API 유연성을 높이라." />
   </component>
 </project>
