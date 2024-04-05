@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 35. ordinal 메서드 대신 인스턴스 필드를 사용하라.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter6/ITEM36/Text.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter6/ITEM36/TextTest.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 36. 비트 필드 대신 EnumSet을 사용하라">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter6/ITEM37/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter6/ITEM37/Phase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter6/ITEM37/Plant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter6/ITEM37/ClientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +51,8 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -90,11 +92,11 @@
       <recent name="org.study.chapter4.ITEM21" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.study.chapter6.ITEM37" />
       <recent name="org.study.chapter6.ITEM36" />
       <recent name="org.study.chapter6.ITEM35" />
       <recent name="org.study.chapter5.ITEM33" />
       <recent name="org.study.chapter5.ITEM32" />
-      <recent name="org.study.chapter5.ITEM31" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.study.chapter4.ITEM21.defaultExam" />
@@ -103,7 +105,30 @@
       <recent name="org.study.supplier" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.EnsembleTest.ensemble">
+  <component name="RunManager" selected="Gradle.ClientTest">
+    <configuration name="ClientTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.study.chapter6.ITEM37.ClientTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="EnsembleTest.ensemble" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -196,36 +221,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MyStackTest.StackTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.study.chapter5.ITEM29.MyStackTest.StackTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ClientTest" />
         <item itemvalue="Gradle.EnsembleTest.ensemble" />
         <item itemvalue="Gradle.FavoritesTest" />
         <item itemvalue="Gradle.FavoritesTest.로_타입_사용_시_예외_빌생" />
         <item itemvalue="Gradle.FavoritesTest.타입_안전_이종_컨테이너_패턴" />
-        <item itemvalue="Gradle.MyStackTest.StackTest" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +265,8 @@
       <workItem from="1712015383635" duration="577000" />
       <workItem from="1712023477062" duration="1987000" />
       <workItem from="1712104002633" duration="1248000" />
-      <workItem from="1712191000842" duration="896000" />
+      <workItem from="1712191000842" duration="1125000" />
+      <workItem from="1712275790475" duration="1732000" />
     </task>
     <task id="LOCAL-00001" summary="effective java first -commit">
       <created>1708994413333</created>
@@ -447,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712191333942</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="ITEM 36. 비트 필드 대신 EnumSet을 사용하라">
+      <created>1712192106047</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1712192106047</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +475,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ITEM7. 다 쓴 객체를 참조 해제" />
     <MESSAGE value="ITEM 8. finalizer와 cleaner 사용을 피하라" />
     <MESSAGE value="ITEM 12 - toString을 항상 재정의하라" />
     <MESSAGE value="ITEM 13. clone 재정의는 주의하여 진행하라" />
@@ -490,6 +499,7 @@
     <MESSAGE value="ITEM 33. 타입 안전 이종 컨테이너를 고려하라" />
     <MESSAGE value="ITEM 34. int 상수 대신 열거 타입을 사용하라" />
     <MESSAGE value="ITEM 35. ordinal 메서드 대신 인스턴스 필드를 사용하라." />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 35. ordinal 메서드 대신 인스턴스 필드를 사용하라." />
+    <MESSAGE value="ITEM 36. 비트 필드 대신 EnumSet을 사용하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 36. 비트 필드 대신 EnumSet을 사용하라" />
   </component>
 </project>
