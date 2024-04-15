@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 37. ordinal 인덱싱 대신 EnumMap을 사용하라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter6/ITEM38/BasicOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter6/ITEM38/ExtendedOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter6/ITEM38/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter6/ITEM38/ExtendedOperationTest.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 40. @Override 애너테이션을 일관되게 사용하라.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter6/ITEM41/MakersInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter6/ITEM41/MakersInterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +49,9 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
+        <option value="AnnotationType" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -81,7 +80,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/LEE KYUHEON/Desktop/Web_Develpment/공부 폴더/java_project/effectiveJava&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/Java/jdk1.7.0_80&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -92,11 +91,11 @@
       <recent name="org.study.chapter4.ITEM21" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.study.chapter6.ITEM41" />
       <recent name="org.study.chapter6.ITEM38" />
       <recent name="org.study.chapter6.ITEM37" />
       <recent name="org.study.chapter6.ITEM36" />
       <recent name="org.study.chapter6.ITEM35" />
-      <recent name="org.study.chapter5.ITEM33" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.study.chapter4.ITEM21.defaultExam" />
@@ -105,7 +104,7 @@
       <recent name="org.study.supplier" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ExtendedOperationTest.test3">
+  <component name="RunManager" selected="애플리케이션.RunExceptionTests">
     <configuration name="ExtendedOperationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.study.chapter6.ITEM38.ExtendedOperationTest" />
       <module name="effectiveJava.main" />
@@ -119,28 +118,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.study.chapter6.ITEM37.ClientTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+    <configuration name="RunExceptionTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.study.chapter6.ITEM39.RunExceptionTests" />
+      <module name="effectiveJava.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.study.chapter6.ITEM39.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ExtendedOperationTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -213,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.RunExceptionTests" />
         <item itemvalue="Gradle.ExtendedOperationTest.test3" />
         <item itemvalue="Gradle.ExtendedOperationTest.test2" />
         <item itemvalue="Gradle.ExtendedOperationTest.test" />
         <item itemvalue="애플리케이션.ExtendedOperationTest" />
-        <item itemvalue="Gradle.ClientTest" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +246,14 @@
       <workItem from="1712104002633" duration="1248000" />
       <workItem from="1712191000842" duration="1125000" />
       <workItem from="1712275790475" duration="2944000" />
-      <workItem from="1712533916053" duration="2597000" />
+      <workItem from="1712533916053" duration="3220000" />
+      <workItem from="1712619786223" duration="2882000" />
+      <workItem from="1712644314337" duration="1515000" />
+      <workItem from="1712792712823" duration="1406000" />
+      <workItem from="1712813152977" duration="582000" />
+      <workItem from="1712879375887" duration="514000" />
+      <workItem from="1712898716397" duration="736000" />
+      <workItem from="1713138656666" duration="1030000" />
     </task>
     <task id="LOCAL-00001" summary="effective java first -commit">
       <created>1708994413333</created>
@@ -455,7 +451,28 @@
       <option name="project" value="LOCAL" />
       <updated>1712277539147</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="ITEM 38. 확장할 수 있는 열거 타입이 필요하면 인터페이스를 사용하라">
+      <created>1712547236194</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1712547236194</updated>
+    </task>
+    <task id="LOCAL-00030" summary="ITEM 39. 명명 패턴보다 애너테이션을 사용하라.">
+      <created>1712629063097</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1712629063097</updated>
+    </task>
+    <task id="LOCAL-00031" summary="ITEM 40. @Override 애너테이션을 일관되게 사용하라.">
+      <created>1712809557892</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1712809557892</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,9 +490,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ITEM 12 - toString을 항상 재정의하라" />
-    <MESSAGE value="ITEM 13. clone 재정의는 주의하여 진행하라" />
-    <MESSAGE value="ITEM14. Comparable을 구현할지 고려하라" />
     <MESSAGE value="ITEM15. 클래스와 멤버의 접근 권한을 최소화하라" />
     <MESSAGE value="ITEM16. public 클래스에서는 public 필드가 아닌 접근자 메서드를 사용하라" />
     <MESSAGE value="ITEM17. 변경 가능성을 최소화하라" />
@@ -498,6 +512,9 @@
     <MESSAGE value="ITEM 35. ordinal 메서드 대신 인스턴스 필드를 사용하라." />
     <MESSAGE value="ITEM 36. 비트 필드 대신 EnumSet을 사용하라" />
     <MESSAGE value="ITEM 37. ordinal 인덱싱 대신 EnumMap을 사용하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 37. ordinal 인덱싱 대신 EnumMap을 사용하라" />
+    <MESSAGE value="ITEM 38. 확장할 수 있는 열거 타입이 필요하면 인터페이스를 사용하라" />
+    <MESSAGE value="ITEM 39. 명명 패턴보다 애너테이션을 사용하라." />
+    <MESSAGE value="ITEM 40. @Override 애너테이션을 일관되게 사용하라." />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 40. @Override 애너테이션을 일관되게 사용하라." />
   </component>
 </project>
