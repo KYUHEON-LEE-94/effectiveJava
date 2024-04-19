@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 42. 익명 클래스보다는 람다를 사용하라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter7/ITEM43/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter7/ITEM43/PersonTest.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 8. finalizer와 cleaner 사용을 피하라">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter7/ITEM44/UseStandardInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +49,8 @@
         <option value="AnnotationType" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
