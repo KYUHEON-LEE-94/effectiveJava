@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 8. finalizer와 cleaner 사용을 피하라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter7/ITEM44/UseStandardInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter7/ITEM45/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter7/ITEM45/IterativeAnagrams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -256,6 +257,7 @@
       <workItem from="1713162273213" duration="1081000" />
       <workItem from="1713224921088" duration="1893000" />
       <workItem from="1713311838138" duration="3026000" />
+      <workItem from="1713681423949" duration="1386000" />
     </task>
     <task id="LOCAL-00001" summary="effective java first -commit">
       <created>1708994413333</created>
