@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 46. 스트림에는 부작용 없는 함수를 사용하라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter7/ITEM47/PowerSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter7/ITEM47/StreamTest.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 47. 반환 타입으로는 스트림보다 컬렉션이 낫다">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter7/ITEM48/ParalleMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter7/ITEM48/ParalleStreamMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter7/ITEM48/ParallelStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +99,7 @@
       <recent name="org.study.chapter6.ITEM36" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.study.chapter7.ITEM48" />
       <recent name="org.study.chapter4.ITEM21.defaultExam" />
       <recent name="org.study.chapter4.ITEM20" />
       <recent name="org.study.equals" />
@@ -258,7 +260,8 @@
       <workItem from="1713224921088" duration="1893000" />
       <workItem from="1713311838138" duration="3026000" />
       <workItem from="1713681423949" duration="1386000" />
-      <workItem from="1713858039939" duration="1253000" />
+      <workItem from="1713858039939" duration="1917000" />
+      <workItem from="1713940300101" duration="1249000" />
     </task>
     <task id="LOCAL-00001" summary="effective java first -commit">
       <created>1708994413333</created>
@@ -498,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713777366422</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="ITEM 47. 반환 타입으로는 스트림보다 컬렉션이 낫다">
+      <created>1713860417670</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1713860417670</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,7 +526,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ITEM 18. 상속보다는 컴포지션을 사용하라" />
     <MESSAGE value="ITEM 19. 상속을 고려해 설계하고 문서화하라. 그러지 않았다면 상속을 금지하라." />
     <MESSAGE value="ITEM 20. 추상 클래스 보다는 인터페이스를 우선하라" />
     <MESSAGE value="ITEM 21 인터페이스는 구현하는 쪽을 생각해 설계하라" />
@@ -541,6 +550,7 @@
     <MESSAGE value="ITEM 41. 정의하려는 것이 타입이라면 마커 인터페이스를 사용하라." />
     <MESSAGE value="ITEM 42. 익명 클래스보다는 람다를 사용하라" />
     <MESSAGE value="ITEM 46. 스트림에는 부작용 없는 함수를 사용하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 46. 스트림에는 부작용 없는 함수를 사용하라" />
+    <MESSAGE value="ITEM 47. 반환 타입으로는 스트림보다 컬렉션이 낫다" />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 47. 반환 타입으로는 스트림보다 컬렉션이 낫다" />
   </component>
 </project>
