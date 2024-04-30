@@ -1,4 +1,4 @@
-package org.study.chapter8;
+package org.study.chapter8.ITEM49;
 
 import java.math.BigInteger;
 import java.util.List;
