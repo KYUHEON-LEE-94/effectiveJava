@@ -18,7 +18,6 @@ import static java.util.stream.Collectors.toList;
  * 2024-04-21        LEE KYUHEON       최초 생성
  */
 public class Card {
-    public enum Suit { SPADE, HEART, DIAMOND, CLUB }
     public enum Rank { ACE, DEUCE, THREE, FOUR, FIVE, SIX, SEVEN,
         EIGHT, NINE, TEN, JACK, QUEEN, KING }
 

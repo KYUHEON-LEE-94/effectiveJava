@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 49. 매개변수가 유효한지 검사하라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM50/Period.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter8/ITEM50/PeriodTest.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 50. 적시에 방어적 복사본을 만들라.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter7/ITEM45/Suit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM51/CardGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM51/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter8/ITEM51/CardGameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/chapter8/checkParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM49/checkParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/chapter7/ITEM45/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter7/ITEM45/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/chapter7/ITEM46/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter7/ITEM46/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +53,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
+        <option value="Enum" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -92,11 +96,11 @@
       <recent name="org.study.chapter4.ITEM21" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.study.chapter8.ITEM51" />
       <recent name="org.study.chapter8.ITEM50" />
       <recent name="org.study.chapter7.ITEM43" />
       <recent name="org.study.chapter6.ITEM41" />
       <recent name="org.study.chapter6.ITEM38" />
-      <recent name="org.study.chapter6.ITEM37" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.study.chapter7.ITEM48" />
@@ -275,7 +279,9 @@
       <workItem from="1714347940897" duration="2335000" />
       <workItem from="1714364972012" duration="55000" />
       <workItem from="1714369517763" duration="18000" />
-      <workItem from="1714435066801" duration="465000" />
+      <workItem from="1714435066801" duration="561000" />
+      <workItem from="1714439007095" duration="228000" />
+      <workItem from="1714607927157" duration="1725000" />
     </task>
     <task id="LOCAL-00001" summary="effective java first -commit">
       <created>1708994413333</created>
@@ -536,7 +542,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714364987119</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="ITEM 50. 적시에 방어적 복사본을 만들라.">
+      <created>1714435588253</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1714435588253</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,7 +567,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ITEM 21 인터페이스는 구현하는 쪽을 생각해 설계하라" />
     <MESSAGE value="Item 22 인터페이스는 타입을 정의하는 용도로만 사용하라" />
     <MESSAGE value="ITEM 23. 태그 달린 클래스보다는 클래스 계층구조를 활용하라" />
     <MESSAGE value="Item 24. 멤버 클래스는 되도록 static으로 만들라" />
@@ -579,6 +591,7 @@
     <MESSAGE value="ITEM 47. 반환 타입으로는 스트림보다 컬렉션이 낫다" />
     <MESSAGE value="ITEM 48. 스트림 병렬화는 주의해서 적용하라" />
     <MESSAGE value="ITEM 49. 매개변수가 유효한지 검사하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 49. 매개변수가 유효한지 검사하라" />
+    <MESSAGE value="ITEM 50. 적시에 방어적 복사본을 만들라." />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 50. 적시에 방어적 복사본을 만들라." />
   </component>
 </project>
