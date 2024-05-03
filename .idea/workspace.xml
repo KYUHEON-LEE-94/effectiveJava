@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 50. 적시에 방어적 복사본을 만들라.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter7/ITEM45/Suit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM51/CardGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM51/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter8/ITEM51/CardGameTest.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 51. 메서드 시그니처를 신중히 설계하라">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM52/Champagne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM52/CollectionClassifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM52/Overridings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM52/SetAndList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM52/SparklingWine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM52/Wine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/chapter7/ITEM45/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter7/ITEM45/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/chapter7/ITEM46/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter7/ITEM46/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +109,33 @@
       <recent name="org.study.supplier" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PeriodTest.breakFinal2">
+  <component name="RunManager" selected="애플리케이션.SetAndList">
+    <configuration name="CollectionClassifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.study.chapter8.ITEM52.CollectionClassifier" />
+      <module name="effectiveJava.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.study.chapter8.ITEM52.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Overridings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.study.chapter8.ITEM52.Overridings" />
+      <module name="effectiveJava.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.study.chapter8.ITEM52.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunExceptionTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.study.chapter6.ITEM39.RunExceptionTests" />
       <module name="effectiveJava.main" />
@@ -124,74 +149,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtendedOperationTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.study.chapter6.ITEM38.ExtendedOperationTest.test&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ExtendedOperationTest.test2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.study.chapter6.ITEM38.ExtendedOperationTest.test2&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ExtendedOperationTest.test3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.study.chapter6.ITEM38.ExtendedOperationTest.test3&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+    <configuration name="SetAndList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.study.chapter8.ITEM52.SetAndList" />
+      <module name="effectiveJava.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.study.chapter8.ITEM52.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="PeriodTest.breakFinal2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -218,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.SetAndList" />
+        <item itemvalue="애플리케이션.Overridings" />
+        <item itemvalue="애플리케이션.CollectionClassifier" />
         <item itemvalue="Gradle.PeriodTest.breakFinal2" />
         <item itemvalue="애플리케이션.RunExceptionTests" />
-        <item itemvalue="Gradle.ExtendedOperationTest.test3" />
-        <item itemvalue="Gradle.ExtendedOperationTest.test2" />
-        <item itemvalue="Gradle.ExtendedOperationTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +250,8 @@
       <workItem from="1714369517763" duration="18000" />
       <workItem from="1714435066801" duration="561000" />
       <workItem from="1714439007095" duration="228000" />
-      <workItem from="1714607927157" duration="1725000" />
+      <workItem from="1714607927157" duration="2013000" />
+      <workItem from="1714694284272" duration="1376000" />
     </task>
     <task id="LOCAL-00001" summary="effective java first -commit">
       <created>1708994413333</created>
@@ -549,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714435588253</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="ITEM 51. 메서드 시그니처를 신중히 설계하라">
+      <created>1714610708124</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1714610708124</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -567,7 +544,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Item 22 인터페이스는 타입을 정의하는 용도로만 사용하라" />
     <MESSAGE value="ITEM 23. 태그 달린 클래스보다는 클래스 계층구조를 활용하라" />
     <MESSAGE value="Item 24. 멤버 클래스는 되도록 static으로 만들라" />
     <MESSAGE value="ITEM26. 로 타입(raw type)은 사용하지 말라" />
@@ -592,6 +568,7 @@
     <MESSAGE value="ITEM 48. 스트림 병렬화는 주의해서 적용하라" />
     <MESSAGE value="ITEM 49. 매개변수가 유효한지 검사하라" />
     <MESSAGE value="ITEM 50. 적시에 방어적 복사본을 만들라." />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 50. 적시에 방어적 복사본을 만들라." />
+    <MESSAGE value="ITEM 51. 메서드 시그니처를 신중히 설계하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 51. 메서드 시그니처를 신중히 설계하라" />
   </component>
 </project>
