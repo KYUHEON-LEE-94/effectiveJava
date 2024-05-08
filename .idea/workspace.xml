@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 51. 메서드 시그니처를 신중히 설계하라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM53/Vargs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter8/ITEM53/VargsTest.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 53. 가변인수는 신중히 사용하라">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM54/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter8/ITEM54/NotNull.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +50,8 @@
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -98,11 +98,11 @@
       <recent name="org.study.chapter6.ITEM41" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.study.chapter8.ITEM53" />
       <recent name="org.study.chapter7.ITEM48" />
       <recent name="org.study.chapter4.ITEM21.defaultExam" />
       <recent name="org.study.chapter4.ITEM20" />
       <recent name="org.study.equals" />
-      <recent name="org.study.supplier" />
     </key>
   </component>
   <component name="RunManager" selected="애플리케이션.SetAndList">
@@ -249,7 +249,9 @@
       <workItem from="1714607927157" duration="2013000" />
       <workItem from="1714694284272" duration="1464000" />
       <workItem from="1714696494615" duration="55000" />
-      <workItem from="1715039077505" duration="860000" />
+      <workItem from="1715039077505" duration="917000" />
+      <workItem from="1715049893243" duration="614000" />
+      <workItem from="1715141149426" duration="990000" />
     </task>
     <task id="LOCAL-00001" summary="effective java first -commit">
       <created>1708994413333</created>
@@ -531,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714696198701</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="ITEM 53. 가변인수는 신중히 사용하라">
+      <created>1715040093488</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1715040093490</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,7 +558,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ITEM 23. 태그 달린 클래스보다는 클래스 계층구조를 활용하라" />
     <MESSAGE value="Item 24. 멤버 클래스는 되도록 static으로 만들라" />
     <MESSAGE value="ITEM26. 로 타입(raw type)은 사용하지 말라" />
     <MESSAGE value="ITEM 27. 비검사 경고를 제거하라" />
@@ -574,6 +582,7 @@
     <MESSAGE value="ITEM 49. 매개변수가 유효한지 검사하라" />
     <MESSAGE value="ITEM 50. 적시에 방어적 복사본을 만들라." />
     <MESSAGE value="ITEM 51. 메서드 시그니처를 신중히 설계하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 51. 메서드 시그니처를 신중히 설계하라" />
+    <MESSAGE value="ITEM 53. 가변인수는 신중히 사용하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 53. 가변인수는 신중히 사용하라" />
   </component>
 </project>
