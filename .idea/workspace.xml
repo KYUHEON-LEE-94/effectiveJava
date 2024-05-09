@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 53. 가변인수는 신중히 사용하라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM54/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter8/ITEM54/NotNull.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 54. null이 아닌, 빈 컬렉션이나 배열을 반환하라">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM55/OptionalStudy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter8/ITEM55/OptionalStudyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM51/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM51/CardGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +52,8 @@
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -72,17 +74,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Workspace/project/front_sejong&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/user/Workspace/project/front_sejong",
+    "settings.editor.selected.configurable": "fileTemplates"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -91,11 +94,11 @@
       <recent name="org.study.chapter4.ITEM21" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.study.chapter8.ITEM55" />
       <recent name="org.study.chapter8.ITEM53" />
       <recent name="org.study.chapter8.ITEM51" />
       <recent name="org.study.chapter8.ITEM50" />
       <recent name="org.study.chapter7.ITEM43" />
-      <recent name="org.study.chapter6.ITEM41" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.study.chapter8.ITEM53" />
@@ -105,7 +108,7 @@
       <recent name="org.study.equals" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.SetAndList">
+  <component name="RunManager" selected="Gradle.CardGameTest.test">
     <configuration name="CollectionClassifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.study.chapter8.ITEM52.CollectionClassifier" />
       <module name="effectiveJava.main" />
@@ -132,19 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunExceptionTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.study.chapter6.ITEM39.RunExceptionTests" />
-      <module name="effectiveJava.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.study.chapter6.ITEM39.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SetAndList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.study.chapter8.ITEM52.SetAndList" />
       <module name="effectiveJava.main" />
@@ -158,7 +148,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PeriodTest.breakFinal2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CardGameTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -171,7 +161,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.study.chapter8.ITEM50.PeriodTest.breakFinal2&quot;" />
+            <option value="&quot;org.study.chapter8.ITEM51.CardGameTest.test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="OptionalStudyTest.기본값을_정한다" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.study.chapter8.ITEM55.OptionalStudyTest.기본값을_정한다&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -183,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CardGameTest.test" />
+        <item itemvalue="Gradle.OptionalStudyTest.기본값을_정한다" />
         <item itemvalue="애플리케이션.SetAndList" />
         <item itemvalue="애플리케이션.Overridings" />
         <item itemvalue="애플리케이션.CollectionClassifier" />
-        <item itemvalue="Gradle.PeriodTest.breakFinal2" />
-        <item itemvalue="애플리케이션.RunExceptionTests" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +264,8 @@
       <workItem from="1714696494615" duration="55000" />
       <workItem from="1715039077505" duration="917000" />
       <workItem from="1715049893243" duration="614000" />
-      <workItem from="1715141149426" duration="990000" />
+      <workItem from="1715141149426" duration="1018000" />
+      <workItem from="1715213961237" duration="2963000" />
     </task>
     <task id="LOCAL-00001" summary="effective java first -commit">
       <created>1708994413333</created>
@@ -540,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715040093490</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="ITEM 54. null이 아닌, 빈 컬렉션이나 배열을 반환하라">
+      <created>1715142157382</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1715142157382</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,7 +579,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Item 24. 멤버 클래스는 되도록 static으로 만들라" />
     <MESSAGE value="ITEM26. 로 타입(raw type)은 사용하지 말라" />
     <MESSAGE value="ITEM 27. 비검사 경고를 제거하라" />
     <MESSAGE value="ITEM 28. 배열보다는 리스트를 사용하라" />
@@ -583,6 +603,7 @@
     <MESSAGE value="ITEM 50. 적시에 방어적 복사본을 만들라." />
     <MESSAGE value="ITEM 51. 메서드 시그니처를 신중히 설계하라" />
     <MESSAGE value="ITEM 53. 가변인수는 신중히 사용하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 53. 가변인수는 신중히 사용하라" />
+    <MESSAGE value="ITEM 54. null이 아닌, 빈 컬렉션이나 배열을 반환하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 54. null이 아닌, 빈 컬렉션이나 배열을 반환하라" />
   </component>
 </project>

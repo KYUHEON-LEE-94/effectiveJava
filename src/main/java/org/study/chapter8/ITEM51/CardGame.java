@@ -1,5 +1,6 @@
 package org.study.chapter8.ITEM51;
 
+import lombok.extern.log4j.Log4j2;
 import org.study.chapter7.ITEM45.Suit;
 
 /**
@@ -13,6 +14,7 @@ import org.study.chapter7.ITEM45.Suit;
  * -----------------------------------------------------------
  * 2024-05-02           heon               최초 생성
  */
+@Log4j2
 public class CardGame {
 /*
    public boolean compareCards(int myCardRank, Suit myCardSuit, int otherCardRank, Suit otherCardSuit){
@@ -45,6 +47,7 @@ public class CardGame {
     */
 
     public void inputGamer(Person person){
+        System.out.println("person = " + person);
         // Logic
     }
 }
