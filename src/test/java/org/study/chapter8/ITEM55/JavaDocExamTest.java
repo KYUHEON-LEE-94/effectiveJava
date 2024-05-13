@@ -23,7 +23,7 @@ import static org.junit.jupiter.api.Assertions.*;
  *
  * <pre>
  */
-class OptionalStudyTest {
+class JavaDocExamTest {
 
     @Test
     void 기본값을_정한다(){

@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 54. null이 아닌, 빈 컬렉션이나 배열을 반환하라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM55/OptionalStudy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter8/ITEM55/OptionalStudyTest.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 56. 공개된 API 요소에는 항상 문서화 주석을 사용하라">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM56/JavaDocExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter9/ITEM57/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter9/ITEM57/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter9/ITEM57/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter9/ITEM57/MyData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter9/ITEM57/RenderedData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM51/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM51/CardGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/study/chapter8/ITEM55/OptionalStudyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter8/ITEM55/JavaDocExamTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +56,8 @@
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -74,18 +78,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/user/Workspace/project/front_sejong",
-    "settings.editor.selected.configurable": "fileTemplates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Workspace/project/front_sejong&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -101,20 +106,20 @@
       <recent name="org.study.chapter7.ITEM43" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.study.chapter8.ITEM56" />
       <recent name="org.study.chapter8.ITEM53" />
       <recent name="org.study.chapter7.ITEM48" />
       <recent name="org.study.chapter4.ITEM21.defaultExam" />
       <recent name="org.study.chapter4.ITEM20" />
-      <recent name="org.study.equals" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CardGameTest.test">
-    <configuration name="CollectionClassifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.study.chapter8.ITEM52.CollectionClassifier" />
+  <component name="RunManager" selected="애플리케이션.Food">
+    <configuration name="Food" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.study.chapter9.ITEM57.Food" />
       <module name="effectiveJava.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.study.chapter8.ITEM52.*" />
+          <option name="PATTERN" value="org.study.chapter9.ITEM57.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Food" />
         <item itemvalue="Gradle.CardGameTest.test" />
         <item itemvalue="Gradle.OptionalStudyTest.기본값을_정한다" />
         <item itemvalue="애플리케이션.SetAndList" />
         <item itemvalue="애플리케이션.Overridings" />
-        <item itemvalue="애플리케이션.CollectionClassifier" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +270,9 @@
       <workItem from="1715039077505" duration="917000" />
       <workItem from="1715049893243" duration="614000" />
       <workItem from="1715141149426" duration="1018000" />
-      <workItem from="1715213961237" duration="2963000" />
+      <workItem from="1715213961237" duration="3003000" />
+      <workItem from="1715316436359" duration="1711000" />
+      <workItem from="1715584923542" duration="781000" />
     </task>
     <task id="LOCAL-00001" summary="effective java first -commit">
       <created>1708994413333</created>
@@ -561,7 +568,21 @@
       <option name="project" value="LOCAL" />
       <updated>1715142157382</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="ITEM 55. 옵셔널 반환은 신중히 하라">
+      <created>1715217196467</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1715217196467</updated>
+    </task>
+    <task id="LOCAL-00044" summary="ITEM 56. 공개된 API 요소에는 항상 문서화 주석을 사용하라">
+      <created>1715318009880</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1715318009880</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,8 +600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ITEM26. 로 타입(raw type)은 사용하지 말라" />
-    <MESSAGE value="ITEM 27. 비검사 경고를 제거하라" />
     <MESSAGE value="ITEM 28. 배열보다는 리스트를 사용하라" />
     <MESSAGE value="ITEM 29. 이왕이면 제네릭 타입으로 만들라." />
     <MESSAGE value="ITEM 30. 이왕이면 제네릭 메서드로 만들어라" />
@@ -604,6 +623,8 @@
     <MESSAGE value="ITEM 51. 메서드 시그니처를 신중히 설계하라" />
     <MESSAGE value="ITEM 53. 가변인수는 신중히 사용하라" />
     <MESSAGE value="ITEM 54. null이 아닌, 빈 컬렉션이나 배열을 반환하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 54. null이 아닌, 빈 컬렉션이나 배열을 반환하라" />
+    <MESSAGE value="ITEM 55. 옵셔널 반환은 신중히 하라" />
+    <MESSAGE value="ITEM 56. 공개된 API 요소에는 항상 문서화 주석을 사용하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 56. 공개된 API 요소에는 항상 문서화 주석을 사용하라" />
   </component>
 </project>
