@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 56. 공개된 API 요소에는 항상 문서화 주석을 사용하라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM56/JavaDocExam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter9/ITEM57/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter9/ITEM57/DataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter9/ITEM57/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter9/ITEM57/MyData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter9/ITEM57/RenderedData.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 57. 지역변수의 범위를 최소화하라">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter9/ITEM58/UseForEachThanFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter9/ITEM58/UseForEachThanForTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM51/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter8/ITEM51/CardGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/study/chapter8/ITEM55/OptionalStudyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter8/ITEM55/JavaDocExamTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +50,8 @@
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -99,11 +93,11 @@
       <recent name="org.study.chapter4.ITEM21" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.study.chapter9.ITEM58" />
       <recent name="org.study.chapter8.ITEM55" />
       <recent name="org.study.chapter8.ITEM53" />
       <recent name="org.study.chapter8.ITEM51" />
       <recent name="org.study.chapter8.ITEM50" />
-      <recent name="org.study.chapter7.ITEM43" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.study.chapter8.ITEM56" />
@@ -113,39 +107,13 @@
       <recent name="org.study.chapter4.ITEM20" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Food">
+  <component name="RunManager" selected="Gradle.UseForEachThanForTest.주사위2번_굴릴때_경우의수">
     <configuration name="Food" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.study.chapter9.ITEM57.Food" />
       <module name="effectiveJava.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.study.chapter9.ITEM57.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Overridings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.study.chapter8.ITEM52.Overridings" />
-      <module name="effectiveJava.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.study.chapter8.ITEM52.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SetAndList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.study.chapter8.ITEM52.SetAndList" />
-      <module name="effectiveJava.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.study.chapter8.ITEM52.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,13 +167,59 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="UseForEachThanForTest.주사위2번_굴릴때_경우의수" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.study.chapter9.ITEM58.UseForEachThanForTest.주사위2번_굴릴때_경우의수&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UseForEachThanForTest.평범한_for" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.study.chapter9.ITEM58.UseForEachThanForTest.평범한_for&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UseForEachThanForTest.주사위2번_굴릴때_경우의수" />
+        <item itemvalue="Gradle.UseForEachThanForTest.평범한_for" />
         <item itemvalue="애플리케이션.Food" />
         <item itemvalue="Gradle.CardGameTest.test" />
         <item itemvalue="Gradle.OptionalStudyTest.기본값을_정한다" />
-        <item itemvalue="애플리케이션.SetAndList" />
-        <item itemvalue="애플리케이션.Overridings" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +286,9 @@
       <workItem from="1715141149426" duration="1018000" />
       <workItem from="1715213961237" duration="3003000" />
       <workItem from="1715316436359" duration="1711000" />
-      <workItem from="1715584923542" duration="781000" />
+      <workItem from="1715584923542" duration="940000" />
+      <workItem from="1715644741981" duration="1473000" />
+      <workItem from="1715647234862" duration="506000" />
     </task>
     <task id="LOCAL-00001" summary="effective java first -commit">
       <created>1708994413333</created>
@@ -582,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715318009880</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="ITEM 57. 지역변수의 범위를 최소화하라">
+      <created>1715585732796</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1715585732796</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,7 +623,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ITEM 28. 배열보다는 리스트를 사용하라" />
     <MESSAGE value="ITEM 29. 이왕이면 제네릭 타입으로 만들라." />
     <MESSAGE value="ITEM 30. 이왕이면 제네릭 메서드로 만들어라" />
     <MESSAGE value="ITEM 31. 한정적 와일드카드를 사용해 API 유연성을 높이라." />
@@ -625,6 +647,7 @@
     <MESSAGE value="ITEM 54. null이 아닌, 빈 컬렉션이나 배열을 반환하라" />
     <MESSAGE value="ITEM 55. 옵셔널 반환은 신중히 하라" />
     <MESSAGE value="ITEM 56. 공개된 API 요소에는 항상 문서화 주석을 사용하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 56. 공개된 API 요소에는 항상 문서화 주석을 사용하라" />
+    <MESSAGE value="ITEM 57. 지역변수의 범위를 최소화하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 57. 지역변수의 범위를 최소화하라" />
   </component>
 </project>
