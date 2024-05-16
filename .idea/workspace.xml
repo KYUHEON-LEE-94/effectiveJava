@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 57. 지역변수의 범위를 최소화하라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter9/ITEM58/UseForEachThanFor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter9/ITEM58/UseForEachThanForTest.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 58 전통적인 for 문보다는 for-each 문을 사용하라.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter9/ITEM59/TestMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +49,8 @@
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -288,7 +287,8 @@
       <workItem from="1715316436359" duration="1711000" />
       <workItem from="1715584923542" duration="940000" />
       <workItem from="1715644741981" duration="1473000" />
-      <workItem from="1715647234862" duration="506000" />
+      <workItem from="1715647234862" duration="560000" />
+      <workItem from="1715823990488" duration="1738000" />
     </task>
     <task id="LOCAL-00001" summary="effective java first -commit">
       <created>1708994413333</created>
@@ -605,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715585732796</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="ITEM 58 전통적인 for 문보다는 for-each 문을 사용하라.">
+      <created>1715647785966</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1715647785966</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -623,7 +630,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ITEM 29. 이왕이면 제네릭 타입으로 만들라." />
     <MESSAGE value="ITEM 30. 이왕이면 제네릭 메서드로 만들어라" />
     <MESSAGE value="ITEM 31. 한정적 와일드카드를 사용해 API 유연성을 높이라." />
     <MESSAGE value="ITEM 32. 제네릭과 가변인수를 함께 쓸 때는 신중해라" />
@@ -648,6 +654,7 @@
     <MESSAGE value="ITEM 55. 옵셔널 반환은 신중히 하라" />
     <MESSAGE value="ITEM 56. 공개된 API 요소에는 항상 문서화 주석을 사용하라" />
     <MESSAGE value="ITEM 57. 지역변수의 범위를 최소화하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 57. 지역변수의 범위를 최소화하라" />
+    <MESSAGE value="ITEM 58 전통적인 for 문보다는 for-each 문을 사용하라." />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 58 전통적인 for 문보다는 for-each 문을 사용하라." />
   </component>
 </project>
