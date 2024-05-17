@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 58 전통적인 for 문보다는 for-each 문을 사용하라.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter9/ITEM59/TestMain.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 59. 라이브러리를 익히고 사용하라.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter9/ITEM60/AvoidFloatAndDouble.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +106,7 @@
       <recent name="org.study.chapter4.ITEM20" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.UseForEachThanForTest.주사위2번_굴릴때_경우의수">
+  <component name="RunManager" selected="Gradle.AvoidFloatAndDouble.정수활용">
     <configuration name="Food" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.study.chapter9.ITEM57.Food" />
       <module name="effectiveJava.main" />
@@ -120,7 +120,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CardGameTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AvoidFloatAndDouble.정수활용" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -133,7 +133,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.study.chapter8.ITEM51.CardGameTest.test&quot;" />
+            <option value="&quot;org.study.chapter9.ITEM60.AvoidFloatAndDouble.정수활용&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -143,7 +143,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="OptionalStudyTest.기본값을_정한다" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AvoidFloatAndDouble.부동소수점_부정확" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -156,7 +156,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.study.chapter8.ITEM55.OptionalStudyTest.기본값을_정한다&quot;" />
+            <option value="&quot;org.study.chapter9.ITEM60.AvoidFloatAndDouble.부동소수점_부정확&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -214,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AvoidFloatAndDouble.정수활용" />
+        <item itemvalue="Gradle.AvoidFloatAndDouble.부동소수점_부정확" />
         <item itemvalue="Gradle.UseForEachThanForTest.주사위2번_굴릴때_경우의수" />
         <item itemvalue="Gradle.UseForEachThanForTest.평범한_for" />
         <item itemvalue="애플리케이션.Food" />
-        <item itemvalue="Gradle.CardGameTest.test" />
-        <item itemvalue="Gradle.OptionalStudyTest.기본값을_정한다" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +288,8 @@
       <workItem from="1715584923542" duration="940000" />
       <workItem from="1715644741981" duration="1473000" />
       <workItem from="1715647234862" duration="560000" />
-      <workItem from="1715823990488" duration="1738000" />
+      <workItem from="1715823990488" duration="1775000" />
+      <workItem from="1715925579168" duration="1025000" />
     </task>
     <task id="LOCAL-00001" summary="effective java first -commit">
       <created>1708994413333</created>
@@ -612,7 +613,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715647785966</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="ITEM 59. 라이브러리를 익히고 사용하라.">
+      <created>1715833093611</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1715833093612</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -630,7 +638,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ITEM 30. 이왕이면 제네릭 메서드로 만들어라" />
     <MESSAGE value="ITEM 31. 한정적 와일드카드를 사용해 API 유연성을 높이라." />
     <MESSAGE value="ITEM 32. 제네릭과 가변인수를 함께 쓸 때는 신중해라" />
     <MESSAGE value="ITEM 33. 타입 안전 이종 컨테이너를 고려하라" />
@@ -655,6 +662,7 @@
     <MESSAGE value="ITEM 56. 공개된 API 요소에는 항상 문서화 주석을 사용하라" />
     <MESSAGE value="ITEM 57. 지역변수의 범위를 최소화하라" />
     <MESSAGE value="ITEM 58 전통적인 for 문보다는 for-each 문을 사용하라." />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 58 전통적인 for 문보다는 for-each 문을 사용하라." />
+    <MESSAGE value="ITEM 59. 라이브러리를 익히고 사용하라." />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 59. 라이브러리를 익히고 사용하라." />
   </component>
 </project>
