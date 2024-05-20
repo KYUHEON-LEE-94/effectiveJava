@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 59. 라이브러리를 익히고 사용하라.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter9/ITEM62/StudyInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter9/ITEM62/StudyInfoTest.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 62. 다른 타입이 적절하다면 문자열 사용을 피하라">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter9/ITEM63/StringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +49,8 @@
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -100,52 +99,14 @@
       <recent name="org.study.chapter8.ITEM51" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.study.chapter9.ITEM63" />
       <recent name="org.study.chapter9.ITEM61" />
       <recent name="org.study.chapter8.ITEM56" />
       <recent name="org.study.chapter8.ITEM53" />
       <recent name="org.study.chapter7.ITEM48" />
-      <recent name="org.study.chapter4.ITEM21.defaultExam" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StudyInfoTest.test">
-    <configuration name="AvoidFloatAndDouble" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.study.chapter9.ITEM60.AvoidFloatAndDouble&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="NoUseBoxingType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="effectiveJava.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.study.chapter9.ITEM61.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.study.chapter9.ITEM61" />
-      <option name="MAIN_CLASS_NAME" value="org.study.chapter9.ITEM61.NoUseBoxingType" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StringTest">
     <configuration name="NoUseBoxingType.Long과_long" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="effectiveJava.test" />
       <extension name="coverage">
@@ -178,6 +139,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="effectiveJava.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.study.chapter9.ITEM63.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.study.chapter9.ITEM63" />
+      <option name="MAIN_CLASS_NAME" value="org.study.chapter9.ITEM63.StringTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="effectiveJava.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.study.chapter9.ITEM63.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.study.chapter9.ITEM63" />
+      <option name="MAIN_CLASS_NAME" value="org.study.chapter9.ITEM63.StringTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudyInfoTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="effectiveJava.test" />
       <extension name="coverage">
@@ -196,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringTest" />
+        <item itemvalue="JUnit.StringTest.test2" />
         <item itemvalue="JUnit.StudyInfoTest.test" />
         <item itemvalue="JUnit.NoUseBoxingType.Long과_long" />
         <item itemvalue="JUnit.NoUseBoxingType.예상한_결과가_아니다" />
-        <item itemvalue="JUnit.NoUseBoxingType" />
-        <item itemvalue="Gradle.AvoidFloatAndDouble" />
       </list>
     </recent_temporary>
   </component>
@@ -272,6 +264,7 @@
       <workItem from="1715647234862" duration="560000" />
       <workItem from="1715823990488" duration="1775000" />
       <workItem from="1715925579168" duration="1025000" />
+      <workItem from="1716248622873" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="effective java first -commit">
       <created>1708994413333</created>
@@ -602,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715833093612</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="ITEM 62. 다른 타입이 적절하다면 문자열 사용을 피하라">
+      <created>1716197455991</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1716197455991</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,7 +620,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ITEM 31. 한정적 와일드카드를 사용해 API 유연성을 높이라." />
     <MESSAGE value="ITEM 32. 제네릭과 가변인수를 함께 쓸 때는 신중해라" />
     <MESSAGE value="ITEM 33. 타입 안전 이종 컨테이너를 고려하라" />
     <MESSAGE value="ITEM 34. int 상수 대신 열거 타입을 사용하라" />
@@ -645,6 +644,7 @@
     <MESSAGE value="ITEM 57. 지역변수의 범위를 최소화하라" />
     <MESSAGE value="ITEM 58 전통적인 for 문보다는 for-each 문을 사용하라." />
     <MESSAGE value="ITEM 59. 라이브러리를 익히고 사용하라." />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 59. 라이브러리를 익히고 사용하라." />
+    <MESSAGE value="ITEM 62. 다른 타입이 적절하다면 문자열 사용을 피하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 62. 다른 타입이 적절하다면 문자열 사용을 피하라" />
   </component>
 </project>
