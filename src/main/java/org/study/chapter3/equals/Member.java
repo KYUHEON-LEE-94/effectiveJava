@@ -22,6 +22,10 @@ public class Member {
         this.age = age;
     }
 
+    public Member() {
+
+    }
+
     @Override
     public boolean equals(Object obj) {
         if (obj == null) {
