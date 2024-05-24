@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 63. 문자열 연결은 느리니 주의하라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter9/ITEM64/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter9/ITEM64/MemoryMemberRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter9/ITEM64/RDBMemberRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter9/ITEM64/Repository.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 64. 객체는 인터페이스 타입으로 참조하라">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter9/ITEM65/ReflectionExam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/chapter3/equals/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter3/equals/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,14 +94,14 @@
       <recent name="org.study.chapter8.ITEM51" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.study.chapter9.ITEM65" />
       <recent name="org.study.chapter9.ITEM63" />
       <recent name="org.study.chapter9.ITEM61" />
       <recent name="org.study.chapter8.ITEM56" />
       <recent name="org.study.chapter8.ITEM53" />
-      <recent name="org.study.chapter7.ITEM48" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringTest">
+  <component name="RunManager" selected="JUnit.ReflectionExam.test">
     <configuration name="NoUseBoxingType.Long과_long" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="effectiveJava.test" />
       <extension name="coverage">
@@ -122,17 +118,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoUseBoxingType.예상한_결과가_아니다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReflectionExam.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="effectiveJava.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.study.chapter9.ITEM61.*" />
+          <option name="PATTERN" value="org.study.chapter9.ITEM65.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.study.chapter9.ITEM61" />
-      <option name="MAIN_CLASS_NAME" value="org.study.chapter9.ITEM61.NoUseBoxingType" />
-      <option name="METHOD_NAME" value="예상한_결과가_아니다" />
+      <option name="PACKAGE_NAME" value="org.study.chapter9.ITEM65" />
+      <option name="MAIN_CLASS_NAME" value="org.study.chapter9.ITEM65.ReflectionExam" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReflectionExam.test" />
         <item itemvalue="JUnit.StringTest" />
         <item itemvalue="JUnit.StringTest.test2" />
         <item itemvalue="JUnit.StudyInfoTest.test" />
         <item itemvalue="JUnit.NoUseBoxingType.Long과_long" />
-        <item itemvalue="JUnit.NoUseBoxingType.예상한_결과가_아니다" />
       </list>
     </recent_temporary>
   </component>
@@ -265,14 +261,8 @@
       <workItem from="1715925579168" duration="1025000" />
       <workItem from="1716248622873" duration="790000" />
       <workItem from="1716265543195" duration="282000" />
-      <workItem from="1716421952232" duration="836000" />
-    </task>
-    <task id="LOCAL-00001" summary="effective java first -commit">
-      <created>1708994413333</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1708994413333</updated>
+      <workItem from="1716421952232" duration="870000" />
+      <workItem from="1716508253311" duration="652000" />
     </task>
     <task id="LOCAL-00002" summary="ITEM7. 다 쓴 객체를 참조 해제">
       <created>1708999007073</created>
@@ -610,7 +600,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716249251317</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="ITEM 64. 객체는 인터페이스 타입으로 참조하라">
+      <created>1716422806088</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1716422806089</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -628,7 +625,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ITEM 33. 타입 안전 이종 컨테이너를 고려하라" />
     <MESSAGE value="ITEM 34. int 상수 대신 열거 타입을 사용하라" />
     <MESSAGE value="ITEM 35. ordinal 메서드 대신 인스턴스 필드를 사용하라." />
     <MESSAGE value="ITEM 36. 비트 필드 대신 EnumSet을 사용하라" />
@@ -653,6 +649,7 @@
     <MESSAGE value="ITEM 59. 라이브러리를 익히고 사용하라." />
     <MESSAGE value="ITEM 62. 다른 타입이 적절하다면 문자열 사용을 피하라" />
     <MESSAGE value="ITEM 63. 문자열 연결은 느리니 주의하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 63. 문자열 연결은 느리니 주의하라" />
+    <MESSAGE value="ITEM 64. 객체는 인터페이스 타입으로 참조하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 64. 객체는 인터페이스 타입으로 참조하라" />
   </component>
 </project>
