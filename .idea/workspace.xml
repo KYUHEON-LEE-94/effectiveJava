@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 59. 라이브러리를 익히고 사용하라.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter9/ITEM66/JavaProcess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/study/chapter9/ITEM61/NoUseBoxingType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter9/ITEM61/NoUseBoxingType.java" afterDir="false" />
-    </list>
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 64. 객체는 인터페이스 타입으로 참조하라" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
