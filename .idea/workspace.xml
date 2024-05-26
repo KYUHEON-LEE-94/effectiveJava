@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 64. 객체는 인터페이스 타입으로 참조하라">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter9/ITEM65/ReflectionExam.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 59. 라이브러리를 익히고 사용하라.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter9/ITEM66/JavaProcess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/study/chapter9/ITEM61/NoUseBoxingType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter9/ITEM61/NoUseBoxingType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,19 +102,16 @@
       <recent name="org.study.chapter8.ITEM53" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReflectionExam.test">
-    <configuration name="NoUseBoxingType.Long과_long" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="effectiveJava.test" />
+  <component name="RunManager" selected="애플리케이션.JavaProcess">
+    <configuration name="JavaProcess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.study.chapter9.ITEM66.JavaProcess" />
+      <module name="effectiveJava.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.study.chapter9.ITEM61.*" />
+          <option name="PATTERN" value="org.study.chapter9.ITEM66.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.study.chapter9.ITEM61" />
-      <option name="MAIN_CLASS_NAME" value="org.study.chapter9.ITEM61.NoUseBoxingType" />
-      <option name="METHOD_NAME" value="Long과_long" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.JavaProcess" />
         <item itemvalue="JUnit.ReflectionExam.test" />
         <item itemvalue="JUnit.StringTest" />
         <item itemvalue="JUnit.StringTest.test2" />
         <item itemvalue="JUnit.StudyInfoTest.test" />
-        <item itemvalue="JUnit.NoUseBoxingType.Long과_long" />
       </list>
     </recent_temporary>
   </component>
