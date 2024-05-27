@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 64. 객체는 인터페이스 타입으로 참조하라" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 67. 최적화는 신중히 하라">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -257,13 +259,7 @@
       <workItem from="1716265543195" duration="282000" />
       <workItem from="1716421952232" duration="870000" />
       <workItem from="1716508253311" duration="652000" />
-    </task>
-    <task id="LOCAL-00002" summary="ITEM7. 다 쓴 객체를 참조 해제">
-      <created>1708999007073</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1708999007073</updated>
+      <workItem from="1716853340858" duration="327000" />
     </task>
     <task id="LOCAL-00003" summary="ITEM 8. finalizer와 cleaner 사용을 피하라">
       <created>1709099118827</created>
@@ -601,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716422806089</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="ITEM 67. 최적화는 신중히 하라">
+      <created>1716767478708</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1716767478709</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,7 +622,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ITEM 34. int 상수 대신 열거 타입을 사용하라" />
     <MESSAGE value="ITEM 35. ordinal 메서드 대신 인스턴스 필드를 사용하라." />
     <MESSAGE value="ITEM 36. 비트 필드 대신 EnumSet을 사용하라" />
     <MESSAGE value="ITEM 37. ordinal 인덱싱 대신 EnumMap을 사용하라" />
@@ -644,6 +646,7 @@
     <MESSAGE value="ITEM 62. 다른 타입이 적절하다면 문자열 사용을 피하라" />
     <MESSAGE value="ITEM 63. 문자열 연결은 느리니 주의하라" />
     <MESSAGE value="ITEM 64. 객체는 인터페이스 타입으로 참조하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 64. 객체는 인터페이스 타입으로 참조하라" />
+    <MESSAGE value="ITEM 67. 최적화는 신중히 하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 67. 최적화는 신중히 하라" />
   </component>
 </project>
