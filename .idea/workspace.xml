@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 68. 일반적으로 통용되는 명명 규칙을 따르라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter10/ITEM69/Mountain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter10/ITEM69/MountainTest.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 69. 예외는 진짜 예외 상황에만 사용하라.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -262,14 +260,9 @@
       <workItem from="1716421952232" duration="870000" />
       <workItem from="1716508253311" duration="652000" />
       <workItem from="1716853340858" duration="939000" />
-      <workItem from="1716939913773" duration="407000" />
-    </task>
-    <task id="LOCAL-00004" summary="ITEM 12 - toString을 항상 재정의하라">
-      <created>1709606717901</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1709606717901</updated>
+      <workItem from="1716939913773" duration="478000" />
+      <workItem from="1716972047945" duration="602000" />
+      <workItem from="1717112967554" duration="326000" />
     </task>
     <task id="LOCAL-00005" summary="ITEM 13. clone 재정의는 주의하여 진행하라">
       <created>1709712456653</created>
@@ -607,7 +600,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716853674263</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="ITEM 69. 예외는 진짜 예외 상황에만 사용하라.">
+      <created>1716940349361</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1716940349362</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,7 +625,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ITEM 36. 비트 필드 대신 EnumSet을 사용하라" />
     <MESSAGE value="ITEM 37. ordinal 인덱싱 대신 EnumMap을 사용하라" />
     <MESSAGE value="ITEM 38. 확장할 수 있는 열거 타입이 필요하면 인터페이스를 사용하라" />
     <MESSAGE value="ITEM 39. 명명 패턴보다 애너테이션을 사용하라." />
@@ -650,6 +649,7 @@
     <MESSAGE value="ITEM 64. 객체는 인터페이스 타입으로 참조하라" />
     <MESSAGE value="ITEM 67. 최적화는 신중히 하라" />
     <MESSAGE value="ITEM 68. 일반적으로 통용되는 명명 규칙을 따르라" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 68. 일반적으로 통용되는 명명 규칙을 따르라" />
+    <MESSAGE value="ITEM 69. 예외는 진짜 예외 상황에만 사용하라." />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 69. 예외는 진짜 예외 상황에만 사용하라." />
   </component>
 </project>
