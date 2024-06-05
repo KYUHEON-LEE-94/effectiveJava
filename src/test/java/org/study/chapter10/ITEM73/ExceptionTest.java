@@ -1,10 +1,6 @@
 package org.study.chapter10.ITEM73;
 
 import org.junit.jupiter.api.Test;
-import org.study.chapter10.ITEM69.Mountain;
-
-import java.util.Arrays;
-import java.util.List;
 
 /**
  * @author : heon

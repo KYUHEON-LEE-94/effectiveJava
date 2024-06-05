@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 72. 표준 예외를 사용하라.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter10/ITEM73/ExceptionTest.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 73. 추상화 수준에 맞는 예외를 던지라">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter10/ITEM74/Exam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/study/chapter10/ITEM73/ExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter10/ITEM73/ExceptionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,14 +265,8 @@
       <workItem from="1716939913773" duration="478000" />
       <workItem from="1716972047945" duration="602000" />
       <workItem from="1717112967554" duration="326000" />
-      <workItem from="1717468186810" duration="818000" />
-    </task>
-    <task id="LOCAL-00006" summary="ITEM14. Comparable을 구현할지 고려하라">
-      <created>1709793908241</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1709793908241</updated>
+      <workItem from="1717468186810" duration="879000" />
+      <workItem from="1717576451830" duration="871000" />
     </task>
     <task id="LOCAL-00007" summary="ITEM15. 클래스와 멤버의 접근 권한을 최소화하라">
       <created>1709884921120</created>
@@ -609,7 +604,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717392155948</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="ITEM 73. 추상화 수준에 맞는 예외를 던지라">
+      <created>1717474008642</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1717474008643</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,7 +629,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ITEM 38. 확장할 수 있는 열거 타입이 필요하면 인터페이스를 사용하라" />
     <MESSAGE value="ITEM 39. 명명 패턴보다 애너테이션을 사용하라." />
     <MESSAGE value="ITEM 40. @Override 애너테이션을 일관되게 사용하라." />
     <MESSAGE value="ITEM 41. 정의하려는 것이 타입이라면 마커 인터페이스를 사용하라." />
@@ -652,6 +653,7 @@
     <MESSAGE value="ITEM 68. 일반적으로 통용되는 명명 규칙을 따르라" />
     <MESSAGE value="ITEM 69. 예외는 진짜 예외 상황에만 사용하라." />
     <MESSAGE value="ITEM 72. 표준 예외를 사용하라." />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 72. 표준 예외를 사용하라." />
+    <MESSAGE value="ITEM 73. 추상화 수준에 맞는 예외를 던지라" />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 73. 추상화 수준에 맞는 예외를 던지라" />
   </component>
 </project>
