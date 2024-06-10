@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 74. 메서드가 던지는 모든 예외를 문서화하라" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 75. 예외의 상세 메시지에 실패 관련 정보를 담으라">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -263,13 +265,9 @@
       <workItem from="1717112967554" duration="326000" />
       <workItem from="1717468186810" duration="879000" />
       <workItem from="1717576451830" duration="916000" />
-    </task>
-    <task id="LOCAL-00008" summary="ITEM16. public 클래스에서는 public 필드가 아닌 접근자 메서드를 사용하라">
-      <created>1710152048043</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1710152048043</updated>
+      <workItem from="1717717968858" duration="272000" />
+      <workItem from="1717724236584" duration="911000" />
+      <workItem from="1718016093704" duration="308000" />
     </task>
     <task id="LOCAL-00009" summary="ITEM17. 변경 가능성을 최소화하라">
       <created>1710233620369</created>
@@ -607,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717577826519</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="ITEM 75. 예외의 상세 메시지에 실패 관련 정보를 담으라">
+      <created>1717718225728</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1717718225728</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,7 +630,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ITEM 40. @Override 애너테이션을 일관되게 사용하라." />
     <MESSAGE value="ITEM 41. 정의하려는 것이 타입이라면 마커 인터페이스를 사용하라." />
     <MESSAGE value="ITEM 42. 익명 클래스보다는 람다를 사용하라" />
     <MESSAGE value="ITEM 46. 스트림에는 부작용 없는 함수를 사용하라" />
@@ -650,6 +654,7 @@
     <MESSAGE value="ITEM 72. 표준 예외를 사용하라." />
     <MESSAGE value="ITEM 73. 추상화 수준에 맞는 예외를 던지라" />
     <MESSAGE value="ITEM 74. 메서드가 던지는 모든 예외를 문서화하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 74. 메서드가 던지는 모든 예외를 문서화하라" />
+    <MESSAGE value="ITEM 75. 예외의 상세 메시지에 실패 관련 정보를 담으라" />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 75. 예외의 상세 메시지에 실패 관련 정보를 담으라" />
   </component>
 </project>
