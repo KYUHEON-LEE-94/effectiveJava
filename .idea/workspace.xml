@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 76. 가능한 한 실패 원자적으로 만들라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter10/ITEM77/FileInputStreamEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter10/ITEM77/DoNotIgoreException.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 77. 예외를 무시하지 말라.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM78/StopThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM78/StopThreadSync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM78/StopThreadVolatile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM78/ThreadExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,13 +104,52 @@
       <recent name="org.study.chapter8.ITEM53" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.JavaProcess">
+  <component name="RunManager" selected="애플리케이션.ThreadExample">
     <configuration name="JavaProcess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.study.chapter9.ITEM66.JavaProcess" />
       <module name="effectiveJava.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.study.chapter9.ITEM66.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StopThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.study.chapter11.ITEM78.StopThread" />
+      <module name="effectiveJava.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.study.chapter11.ITEM78.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StopThreadVolatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.study.chapter11.ITEM78.StopThreadVolatile" />
+      <module name="effectiveJava.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.study.chapter11.ITEM78.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.study.chapter11.ITEM78.ThreadExample" />
+      <module name="effectiveJava.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.study.chapter11.ITEM78.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,60 +173,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="effectiveJava.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.study.chapter9.ITEM63.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.study.chapter9.ITEM63" />
-      <option name="MAIN_CLASS_NAME" value="org.study.chapter9.ITEM63.StringTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="effectiveJava.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.study.chapter9.ITEM63.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.study.chapter9.ITEM63" />
-      <option name="MAIN_CLASS_NAME" value="org.study.chapter9.ITEM63.StringTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudyInfoTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="effectiveJava.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.study.chapter9.ITEM62.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.study.chapter9.ITEM62" />
-      <option name="MAIN_CLASS_NAME" value="org.study.chapter9.ITEM62.StudyInfoTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.ThreadExample" />
+        <item itemvalue="애플리케이션.StopThread" />
+        <item itemvalue="애플리케이션.StopThreadVolatile" />
         <item itemvalue="애플리케이션.JavaProcess" />
         <item itemvalue="JUnit.ReflectionExam.test" />
-        <item itemvalue="JUnit.StringTest" />
-        <item itemvalue="JUnit.StringTest.test2" />
-        <item itemvalue="JUnit.StudyInfoTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -270,14 +264,9 @@
       <workItem from="1717717968858" duration="272000" />
       <workItem from="1717724236584" duration="911000" />
       <workItem from="1718016093704" duration="417000" />
-      <workItem from="1718096312834" duration="228000" />
-    </task>
-    <task id="LOCAL-00010" summary="ITEM 18. 상속보다는 컴포지션을 사용하라">
-      <created>1710326949308</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1710326949308</updated>
+      <workItem from="1718096312834" duration="268000" />
+      <workItem from="1718096728604" duration="37000" />
+      <workItem from="1718238327860" duration="720000" />
     </task>
     <task id="LOCAL-00011" summary="ITEM 19. 상속을 고려해 설계하고 문서화하라. 그러지 않았다면 상속을 금지하라.">
       <created>1710393811702</created>
@@ -615,7 +604,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718016409960</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="ITEM 77. 예외를 무시하지 말라.">
+      <created>1718096560507</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1718096560508</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -633,7 +629,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ITEM 42. 익명 클래스보다는 람다를 사용하라" />
     <MESSAGE value="ITEM 46. 스트림에는 부작용 없는 함수를 사용하라" />
     <MESSAGE value="ITEM 47. 반환 타입으로는 스트림보다 컬렉션이 낫다" />
     <MESSAGE value="ITEM 48. 스트림 병렬화는 주의해서 적용하라" />
@@ -658,6 +653,7 @@
     <MESSAGE value="ITEM 74. 메서드가 던지는 모든 예외를 문서화하라" />
     <MESSAGE value="ITEM 75. 예외의 상세 메시지에 실패 관련 정보를 담으라" />
     <MESSAGE value="ITEM 76. 가능한 한 실패 원자적으로 만들라" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 76. 가능한 한 실패 원자적으로 만들라" />
+    <MESSAGE value="ITEM 77. 예외를 무시하지 말라." />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 77. 예외를 무시하지 말라." />
   </component>
 </project>
