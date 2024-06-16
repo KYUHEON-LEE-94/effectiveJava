@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 77. 예외를 무시하지 말라.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM78/StopThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM78/StopThreadSync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM78/StopThreadVolatile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM78/ThreadExample.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 78. 공유 중인 가변 데이터는 동기화해 사용하라">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM79/ForwardingSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM79/ObservableSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM79/SetObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter11/ITEM79/SetObserverTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +47,8 @@
         <option value="AnnotationType" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -90,11 +90,11 @@
       <recent name="org.study.chapter4.ITEM21" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.study.chapter11.ITEM79" />
       <recent name="org.study.chapter10.ITEM69" />
       <recent name="org.study.chapter9.ITEM62" />
       <recent name="org.study.chapter9.ITEM58" />
       <recent name="org.study.chapter8.ITEM55" />
-      <recent name="org.study.chapter8.ITEM53" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.study.chapter9.ITEM65" />
@@ -266,14 +266,9 @@
       <workItem from="1718016093704" duration="417000" />
       <workItem from="1718096312834" duration="268000" />
       <workItem from="1718096728604" duration="37000" />
-      <workItem from="1718238327860" duration="720000" />
-    </task>
-    <task id="LOCAL-00011" summary="ITEM 19. 상속을 고려해 설계하고 문서화하라. 그러지 않았다면 상속을 금지하라.">
-      <created>1710393811702</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1710393811703</updated>
+      <workItem from="1718238327860" duration="830000" />
+      <workItem from="1718322224679" duration="590000" />
+      <workItem from="1718581297266" duration="476000" />
     </task>
     <task id="LOCAL-00012" summary="ITEM 20. 추상 클래스 보다는 인터페이스를 우선하라">
       <created>1710479585878</created>
@@ -611,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718096560508</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="ITEM 78. 공유 중인 가변 데이터는 동기화해 사용하라">
+      <created>1718239143987</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1718239143988</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,7 +631,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ITEM 46. 스트림에는 부작용 없는 함수를 사용하라" />
     <MESSAGE value="ITEM 47. 반환 타입으로는 스트림보다 컬렉션이 낫다" />
     <MESSAGE value="ITEM 48. 스트림 병렬화는 주의해서 적용하라" />
     <MESSAGE value="ITEM 49. 매개변수가 유효한지 검사하라" />
@@ -654,6 +655,7 @@
     <MESSAGE value="ITEM 75. 예외의 상세 메시지에 실패 관련 정보를 담으라" />
     <MESSAGE value="ITEM 76. 가능한 한 실패 원자적으로 만들라" />
     <MESSAGE value="ITEM 77. 예외를 무시하지 말라." />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 77. 예외를 무시하지 말라." />
+    <MESSAGE value="ITEM 78. 공유 중인 가변 데이터는 동기화해 사용하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 78. 공유 중인 가변 데이터는 동기화해 사용하라" />
   </component>
 </project>
