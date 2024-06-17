@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 78. 공유 중인 가변 데이터는 동기화해 사용하라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM79/ForwardingSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM79/ObservableSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM79/SetObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter11/ITEM79/SetObserverTest.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 79. 과도한 동기화는 피하라">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM80/WhatIsExecutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +44,8 @@
         <option value="AnnotationType" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -268,14 +265,8 @@
       <workItem from="1718096728604" duration="37000" />
       <workItem from="1718238327860" duration="830000" />
       <workItem from="1718322224679" duration="590000" />
-      <workItem from="1718581297266" duration="476000" />
-    </task>
-    <task id="LOCAL-00012" summary="ITEM 20. 추상 클래스 보다는 인터페이스를 우선하라">
-      <created>1710479585878</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1710479585878</updated>
+      <workItem from="1718581297266" duration="1169000" />
+      <workItem from="1718667540810" duration="200000" />
     </task>
     <task id="LOCAL-00013" summary="ITEM 21 인터페이스는 구현하는 쪽을 생각해 설계하라">
       <created>1710738560942</created>
@@ -613,7 +604,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718239143988</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="ITEM 79. 과도한 동기화는 피하라">
+      <created>1718581860313</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1718581860313</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -631,7 +629,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ITEM 47. 반환 타입으로는 스트림보다 컬렉션이 낫다" />
     <MESSAGE value="ITEM 48. 스트림 병렬화는 주의해서 적용하라" />
     <MESSAGE value="ITEM 49. 매개변수가 유효한지 검사하라" />
     <MESSAGE value="ITEM 50. 적시에 방어적 복사본을 만들라." />
@@ -656,6 +653,7 @@
     <MESSAGE value="ITEM 76. 가능한 한 실패 원자적으로 만들라" />
     <MESSAGE value="ITEM 77. 예외를 무시하지 말라." />
     <MESSAGE value="ITEM 78. 공유 중인 가변 데이터는 동기화해 사용하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 78. 공유 중인 가변 데이터는 동기화해 사용하라" />
+    <MESSAGE value="ITEM 79. 과도한 동기화는 피하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 79. 과도한 동기화는 피하라" />
   </component>
 </project>
