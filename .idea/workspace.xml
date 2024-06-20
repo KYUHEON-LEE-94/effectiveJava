@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 79. 과도한 동기화는 피하라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM81/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM81/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM81/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM81/Sender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM81/SynchronizedNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM81/upperJava5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM81/upperJava5/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM81/upperJava5/Sender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM81/upperJava5/SyncData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter11/ITEM81/SynchronizedNumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/study/chapter11/ITEM81/upperJava5/SyncDataTest.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 81. wait와 notify보다는 동시성 유틸리티를 사용하라">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,19 +65,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Workspace/project/front_sejong&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/user/Workspace/developmentProject/adminagent",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -280,14 +269,8 @@
       <workItem from="1718322224679" duration="590000" />
       <workItem from="1718581297266" duration="1169000" />
       <workItem from="1718667540810" duration="200000" />
-      <workItem from="1718754497293" duration="774000" />
-    </task>
-    <task id="LOCAL-00013" summary="ITEM 21 인터페이스는 구현하는 쪽을 생각해 설계하라">
-      <created>1710738560942</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1710738560942</updated>
+      <workItem from="1718754497293" duration="995000" />
+      <workItem from="1718755579981" duration="182000" />
     </task>
     <task id="LOCAL-00014" summary="Item 22 인터페이스는 타입을 정의하는 용도로만 사용하라">
       <created>1710831776678</created>
@@ -625,7 +608,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718581860313</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="ITEM 81. wait와 notify보다는 동시성 유틸리티를 사용하라">
+      <created>1718755464661</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1718755464662</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -643,7 +633,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ITEM 48. 스트림 병렬화는 주의해서 적용하라" />
     <MESSAGE value="ITEM 49. 매개변수가 유효한지 검사하라" />
     <MESSAGE value="ITEM 50. 적시에 방어적 복사본을 만들라." />
     <MESSAGE value="ITEM 51. 메서드 시그니처를 신중히 설계하라" />
@@ -668,6 +657,7 @@
     <MESSAGE value="ITEM 77. 예외를 무시하지 말라." />
     <MESSAGE value="ITEM 78. 공유 중인 가변 데이터는 동기화해 사용하라" />
     <MESSAGE value="ITEM 79. 과도한 동기화는 피하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 79. 과도한 동기화는 피하라" />
+    <MESSAGE value="ITEM 81. wait와 notify보다는 동시성 유틸리티를 사용하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 81. wait와 notify보다는 동시성 유틸리티를 사용하라" />
   </component>
 </project>
