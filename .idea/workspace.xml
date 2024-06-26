@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 83. 지연 초기화는 신중히 사용하라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter11/ITEM84/SlowCountDownLatch.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 84. 프로그램의 동작을 스레드 스케줄러에 기대하지 말라">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter12/ITEM85/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -281,14 +281,8 @@
       <workItem from="1719186452469" duration="710000" />
       <workItem from="1719205808405" duration="14000" />
       <workItem from="1719207422380" duration="1200000" />
-      <workItem from="1719295408925" duration="557000" />
-    </task>
-    <task id="LOCAL-00016" summary="Item 24. 멤버 클래스는 되도록 static으로 만들라">
-      <created>1711001999577</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1711001999577</updated>
+      <workItem from="1719295408925" duration="14952000" />
+      <workItem from="1719359880961" duration="559000" />
     </task>
     <task id="LOCAL-00017" summary="ITEM26. 로 타입(raw type)은 사용하지 말라">
       <created>1711085749395</created>
@@ -626,7 +620,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719187097823</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="ITEM 84. 프로그램의 동작을 스레드 스케줄러에 기대하지 말라">
+      <created>1719296088003</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1719296088003</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -644,7 +645,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ITEM 51. 메서드 시그니처를 신중히 설계하라" />
     <MESSAGE value="ITEM 53. 가변인수는 신중히 사용하라" />
     <MESSAGE value="ITEM 54. null이 아닌, 빈 컬렉션이나 배열을 반환하라" />
     <MESSAGE value="ITEM 55. 옵셔널 반환은 신중히 하라" />
@@ -669,6 +669,7 @@
     <MESSAGE value="ITEM 81. wait와 notify보다는 동시성 유틸리티를 사용하라" />
     <MESSAGE value="ITEM 82. 스레드 안전성 수준을 문서화하라" />
     <MESSAGE value="ITEM 83. 지연 초기화는 신중히 사용하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 83. 지연 초기화는 신중히 사용하라" />
+    <MESSAGE value="ITEM 84. 프로그램의 동작을 스레드 스케줄러에 기대하지 말라" />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 84. 프로그램의 동작을 스레드 스케줄러에 기대하지 말라" />
   </component>
 </project>
