@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 84. 프로그램의 동작을 스레드 스케줄러에 기대하지 말라">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter12/ITEM88/BogusPeriod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter12/ITEM88/MutablePeriod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter12/ITEM88/Period.java" afterDir="false" />
+    <list default="true" id="8eb631c7-03b9-41e6-bac6-789f05c4a23d" name="변경" comment="ITEM 88. readObject 메서드는 방어적으로 작성하라.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/chapter12/ITEM89/Elvis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -285,13 +283,7 @@
       <workItem from="1719207422380" duration="1200000" />
       <workItem from="1719295408925" duration="14952000" />
       <workItem from="1719359880961" duration="559000" />
-    </task>
-    <task id="LOCAL-00017" summary="ITEM26. 로 타입(raw type)은 사용하지 말라">
-      <created>1711085749395</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1711085749395</updated>
+      <workItem from="1719743843290" duration="208000" />
     </task>
     <task id="LOCAL-00018" summary="ITEM 27. 비검사 경고를 제거하라">
       <created>1711334397025</created>
@@ -629,7 +621,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719296088003</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="ITEM 88. readObject 메서드는 방어적으로 작성하라.">
+      <created>1719616705510</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1719616705510</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -647,7 +646,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ITEM 53. 가변인수는 신중히 사용하라" />
     <MESSAGE value="ITEM 54. null이 아닌, 빈 컬렉션이나 배열을 반환하라" />
     <MESSAGE value="ITEM 55. 옵셔널 반환은 신중히 하라" />
     <MESSAGE value="ITEM 56. 공개된 API 요소에는 항상 문서화 주석을 사용하라" />
@@ -672,6 +670,7 @@
     <MESSAGE value="ITEM 82. 스레드 안전성 수준을 문서화하라" />
     <MESSAGE value="ITEM 83. 지연 초기화는 신중히 사용하라" />
     <MESSAGE value="ITEM 84. 프로그램의 동작을 스레드 스케줄러에 기대하지 말라" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITEM 84. 프로그램의 동작을 스레드 스케줄러에 기대하지 말라" />
+    <MESSAGE value="ITEM 88. readObject 메서드는 방어적으로 작성하라." />
+    <option name="LAST_COMMIT_MESSAGE" value="ITEM 88. readObject 메서드는 방어적으로 작성하라." />
   </component>
 </project>
